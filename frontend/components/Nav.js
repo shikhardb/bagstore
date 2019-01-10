@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import NavStyles from './styles/NavStyles';
 import Router from 'next/router';
-import NProgress from 'nprogress';
+//import NProgress from 'nprogress';
 
 const Nav = () => (
   <NavStyles>
