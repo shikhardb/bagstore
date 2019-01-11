@@ -4,8 +4,8 @@ const db = require('./db');
 
 const server = createServer();
 
-// TODO : use express middlewares to handle cookies (JWT)
-// TODO : use express middlewares to populate current user
+// TODO Use express middlware to handle cookies (JWT)
+// TODO Use express middlware to populate current user
 
 server.start(
   {
@@ -15,6 +15,6 @@ server.start(
     },
   },
   deets => {
-    console.log(`Server is now running on port http://localhost:${deets.port}`);
+    console.log(`Server is now running on port http:/localhost:${deets.port}`);
   }
 );
