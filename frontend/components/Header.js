@@ -1,8 +1,9 @@
-import Nav from './Nav';
 import Link from 'next/link';
 import styled from 'styled-components';
-import Router from 'next/router';
 import NProgress from 'nprogress';
+import Router from 'next/router';
+import Nav from './Nav';
+import Cart from './Cart';
 
 Router.onRouteChangeStart = () => {
   NProgress.start();
@@ -10,8 +11,9 @@ Router.onRouteChangeStart = () => {
 Router.onRouteChangeComplete = () => {
   NProgress.done();
 };
+
 Router.onRouteChangeError = () => {
-  console.log('Triggered - onRouteChangeError');
+  NProgress.done();
 };
 
 const Logo = styled.h1`
@@ -41,14 +43,14 @@ const StyledHeader = styled.header`
     justify-content: space-between;
     align-items: stretch;
     @media (max-width: 1300px) {
-      grid-template-columns: auto 1fr;
+      grid-template-columns: 1fr;
       justify-content: center;
     }
   }
   .sub-bar {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 1px solid ${props => props.theme.lightGrey};
+    border-bottom: 1px solid ${props => props.theme.lightgrey};
   }
 `;
 
@@ -57,7 +59,7 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/">
-          <a>My Store</a>
+          <a>Sick Fits</a>
         </Link>
       </Logo>
       <Nav />
@@ -65,7 +67,7 @@ const Header = () => (
     <div className="sub-bar">
       <p>Search</p>
     </div>
-    <div>Cart</div>
+    <Cart />
   </StyledHeader>
 );
 
