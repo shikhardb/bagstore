@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Meta from '../components/Meta';
 
 const theme = {
-  red: '#FF0000',
+  red: '#e85811',
   black: '#393939',
   grey: '#3A3A3A',
   lightGrey: '#E1E1E1',
