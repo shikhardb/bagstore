@@ -15,25 +15,25 @@ A fun e-commerce app built with React, Next.js and GraphQL with Prisma and Yoga.
  ## Previews 📷
  
  ### View Products 🕶
- [![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/home.JPG)]
+ ![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/home.JPG)
  
  ### Add New Products 👜
- [![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/createnew.gif)]
+ ![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/createnew.gif)
  
  ### Search Products 🔍
- [![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/search.gif)]
+ ![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/search.gif)
  
  ### Add To Cart 🛒
- [![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/addtocart.gif)]
+ ![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/addtocart.gif)
  
  ### Checkout and Buy 💳💲
- [![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/checkout.gif)]
+ ![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/checkout.gif)
  
  ### View Previous Orders
- [![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/orders.gif)]
+ ![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/orders.gif)
  
  ### Change Account Settings
- [![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/reset.gif)]
+ ![N|Solid](https://raw.githubusercontent.com/shikhardb/bagstore/master/demos/reset.gif)
  
  
  ## To run this on your localhost 🏃‍♂️
